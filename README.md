@@ -1,17 +1,17 @@
 ﻿# RecordBook-Assignment
-# 📊 Virtualized 2D Data Grid in React Native
+# Virtualized 2D Data Grid in React Native
 
 A high-performance scrollable 2D data grid built using React Native. This project is designed to efficiently handle extremely large datasets (100,000 rows × 500 columns) using vertical and horizontal virtualization.
 
 ---
 
-## 🚀 Objective
+## Objective
 
 To build a responsive and optimized 2D grid for mobile devices that simulates the real-world requirements of data-heavy applications like CRMs, spreadsheet editors, or admin dashboards — without compromising on smooth performance, even on mid-range devices.
 
 ---
 
-## 🧠 My Approach
+## My Approach
 
 1. **Tech Stack**:
    - `React Native` with `Expo`
@@ -31,7 +31,7 @@ To build a responsive and optimized 2D grid for mobile devices that simulates th
 
 ---
 
-## 🛠 Key Optimizations
+## Key Optimizations
 
 - **FlashList** for vertical virtualization of 100,000 rows.
 - **Memoization** and separation of components like `<Row />`, `<Header />` to avoid unnecessary re-renders.
@@ -41,7 +41,7 @@ To build a responsive and optimized 2D grid for mobile devices that simulates th
 
 ---
 
-## ⚖️ Trade-offs & Assumptions
+## Trade-offs & Assumptions
 
 - **In-memory data generation** was used instead of RealmDB or SQLite to simplify development inside Expo Go.
 - Currently, **all columns are rendered per row**, which might impact performance for very wide grids (e.g., 500 columns). Next step would be column-level virtualization.
