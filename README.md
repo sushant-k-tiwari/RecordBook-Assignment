@@ -50,8 +50,11 @@ To build a responsive and optimized 2D grid for mobile devices that simulates th
 
 ---
 
-## 🖼 Screenshots
+## Screenshots and Video
+### Demo Video
+(./Record Book.webm)
 ![Image 1](https://github.com/user-attachments/assets/5b2c2b8f-d148-4f22-9797-ab35e2f16531)
+
 
 
 ---
